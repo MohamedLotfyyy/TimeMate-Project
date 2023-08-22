@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Yeseva+One&display=swap');
+@import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
+@import url('https://fonts.cdnfonts.com/css/tt-octosquares-trl');
+:root{
+    --navy:#080F2B;
+    --teal: #387782;
+    --baby-blue: #D3E8F1;
+   --bg-blue: #E5EDF1;
+}
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+/* nav bar css*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--navy);
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: var(--baby-blue);
+    text-align: center;
+    height: auto;
+    padding: 11px 30px;
+    text-decoration: none;
+
+}
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    color: var(--teal);
+ }
+/* main heading css*/
+h1 {
+    color: black;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 400;
+    padding: 20px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    animation: fadeIn 4s;
+
+  }
+
+ body {
+    background-repeat: no-repeat;
+    background-image: url('bg4.png');
+    background-color: #F4F1E9;
+    color: black;
+    font-family: 'Glacial Indifference', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+header, form{
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 4s;
+
+
+}
+
+
+
+form input{
+    padding: 0.5rem;
+    padding-left: 1rem;
+    border: none;
+    background: white;
+    border-radius: 0.5rem; /* rounds corners*/
+    animation: fadeIn 4s;
+
+
+}
+.todo-input, .deadlines{
+    font-size: 1.2rem;
+
+}
+form label{
+    text-align: right;
+    padding-top: 5px;
+    animation: fadeIn 4s;
+
+}
+
+form button {
+    border: none;
+    color: var(--navy);
+    background: var(--bg-blue);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    animation: fadeIn 4s;
+
+}
+
+form button:hover{
+    color: var(--teal);
+}
+
+.fa-circle-plus{
+    margin-left: -8px;
+    font-size: 1.5rem;
+    animation: fadeIn 4s;
+
+}
+
+select{
+    border: none;
+    outline:none;
+    background: white;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    cursor:pointer;
+    color: var(--navy);
+    overflow:hidden;
+    position: relative;
+    animation: fadeIn 4s;
+
+    
+} 
+
+.todo-list-container{
+    width: 80%;
+    padding: 20px ;
+    box-shadow: 0 10px 40px rgba(37, 42, 45, 0.205);
+    border-radius: 1rem; /* rounds corners*/
+    animation: fadeIn 4s;
+
+}
+
+.list-head{
+    display: grid;
+    grid-template-columns: 3fr 3fr 1fr;
+    gap: 0.7rem; 
+    animation: fadeIn 4s;
+
+}
+
+.list-tasks{
+    width:100%;
+    margin-top: 30px;
+    animation: fadeIn 4s;
+
+}
+
+.item{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 30px rgba(37, 42, 45, 0.205);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: fadeIn 4s;
+
+}
+
+.item-btn{
+    color: var(--navy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    animation: fadeIn 4s;
+
+}
+
+.item-btn i{
+    font-size: 18px;
+    cursor: pointer;
+    animation: fadeIn 4s;
+
+}
+
+.item p{
+    font-size: 16px;
+    font-weight: 500px;
+    color: var(--navy);
+    letter-spacing: 1px;
+    animation: fadeIn 4s;
+    
+}
+.item.completed p{
+    text-decoration: line-through;
+    color:var(--navy)
+    
+}
+
+h4 {
+    color: black;
+    font-family: 'Glacial Indifference', sans-serif;
+    text-align: left;
+    margin: auto;
+    width: 40%;
+    padding: 3px;
+    position: relative;
+    left: 21%;
+    margin-top: 2%;
+    animation: fadeIn 4s;
+    margin-bottom: 0%;
+  }
+
+h5 {
+    color: var(--teal);
+    font-family: 'Glacial Indifference', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: left;
+    margin: auto;
+    width: 15%;
+    padding: 3px;
+    position: relative;
+    margin-top: 0.5%;
+    right: 2%;
+    margin-bottom: 0%;
+    animation: fadeIn 4s;
+
+  }
+
+a {
+    color: var(--teal);
+
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

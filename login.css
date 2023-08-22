@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Yeseva+One&display=swap');
+@import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
+@import url('https://fonts.cdnfonts.com/css/tt-octosquares-trl');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #E5EDF1;
+}
+
+.login_container {
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #080F2B;
+    border-radius: 4px;
+    animation: fadeIn 4s;
+
+}
+
+.login_timetable {
+    width: 396px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: whitesmoke;
+    animation: fadeIn 4s;
+
+}
+
+.login_form {
+    width: 400px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #080f2b;
+    animation: fadeIn 4s;
+
+
+}
+
+.login_forum {
+    margin-top: 100px;
+    margin-left: 90px;
+    animation: fadeIn 4s;
+
+}
+
+.login_header {
+    margin: 10px 60px;
+    margin-top: -20px;
+    font-weight: 100;
+    color: white;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 38px;
+    animation: fadeIn 4s;
+
+}
+
+.login_username {
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 20px;
+    font-family: inherit;
+    height: 40px;
+    width: 200px;
+    margin-bottom: 15px;
+    padding: 0.25em 0.5em;
+    background-color: #fff;
+    border: 2px solid var(--input-border);
+    border-radius: 4px;
+    animation: fadeIn 4s;
+
+}
+
+.login_password {
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 20px;
+    font-family: inherit;
+    height: 40px;
+    width: 200px;
+    padding: 0.25em 0.5em;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border: 2px solid var(--input-border);
+    border-radius: 4px;
+    animation: fadeIn 4s;
+
+}
+
+.login_submit {
+    margin: 15px 20px;
+    border-radius: 25px;
+    width: 60%;
+    font-size: 16px;
+    border: none;
+    background: white;
+    /* fallback for old browsers */
+    color: black;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 22px;
+    font-family: 'Glacial Indifference', sans-serif;
+    animation: fadeIn 4s;
+
+}
+
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1;
+    /* Firefox */
+}
+
+.register_login {
+    margin-left: 20px;
+    color: white;
+}
+
+a {
+    color: white;
+    outline: none;
+}
+
+body {
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #080F2B;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #D3E8F1;
+    text-align: center;
+    height: auto;
+    padding: 11px 30px;
+    text-decoration: none;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    color: #387782;
+}
+
+#error {
+    color: red;
+    display: block;
+}
+
+
+h2 {
+    color: black;
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-size: 30px;
+    width: 60%;
+    text-align: center;
+    padding: 10px;
+    margin:auto;
+    margin-top: 10px;
+    animation: fadeIn 4s;
+
+  }
+
+  
+.register_login {
+    color: white;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    margin-right: 102px;
+    animation: fadeIn 4s;
+    position: relative;
+  }
+
+  .moto{
+    color: black;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    margin-top: -10px;
+    margin-left: 10px;
+    position: relative;   
+    animation: fadeIn 4s;
+
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

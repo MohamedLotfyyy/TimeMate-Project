@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Yeseva+One&display=swap');
+@import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
+@import url('https://fonts.cdnfonts.com/css/tt-octosquares-trl');
+
+body, html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url('bg.png');
+    background-color: #F4F1E9;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #080F2B;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+
+  }
+  
+  li a {
+    display: block;
+    color: #d3f1ed;
+    text-align: center;
+    height: auto;
+    padding: 11px 30px;
+    text-decoration: none;
+
+  }
+  
+  li a:hover {
+    color: #387782;
+  }
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+    color: #080F2B;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 22px;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    font-size: 38px;
+    flex-grow: 1;
+  }
+
+p {
+    color: #080F2B;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-weight: 100;
+    text-align: left;
+    padding: 0px;
+    margin-left: 5px;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    font-size: 17px;
+  }
+
+h5 {
+    color: #080F2B;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-weight: 100;
+    text-align: left;
+    margin-left: 5px;
+    padding-left: 15px;
+    margin-bottom: 8px;
+    margin-top: -5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 15px;
+  }
+
+.clegend {
+  border-left: 5px solid rgb(107, 175, 167);
+}
+
+.dlegend {
+  border-left: 5px solid rgb(198, 0, 66);
+  ;
+}
+  .legend {
+    background-color: #f4fafc;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.18);
+    -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.18);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    color: whitesmoke;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 20px;
+    width: 280px;
+    padding: 20px;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: -70px;
+    margin-left: 91px;
+    position: absolute;
+    animation: fadeIn 4s;
+
+  }
+
+.wrapper {
+    position: relative;
+    max-width: 1280px;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    animation: fadeIn 4s;
+    
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .c-calendar {
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .c-calendar__style {
+    background-color: #f4fafc;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.18);
+    -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.18);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    color: whitesmoke;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 20px;
+  }
+  
+  .c-cal__container {
+    position: relative;
+    width: calc(100% - 300px);
+    height: 0px;
+    padding-bottom: 63%;
+    overflow: hidden;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .c-aside {
+    width: 320px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 20px;
+
+  }
+  .c-aside__day {
+    color: #080F2B;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 400;
+    text-align: center;
+    padding: auto;
+    margin-bottom: 0%;
+    margin-top: 15px;
+    font-size: 29px;
+  }
+
+  .c-aside__eventList {
+    color: #080F2B;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-weight: 100;
+    text-align: left;
+    padding-left: 15px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    font-size: 17px;
+  }
+  
+  .c-aside__event:before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 16px;
+    height: 16px;
+    left: 0;
+    background-color: #F5F5F5;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+  }
+
+.cview__header{
+    width: 110px;
+    max-width: 14.28571428571429%;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: clip;
+    align-items: center;
+    display: inline-block;
+    color: #080F2B;
+
+  }
+
+.backButton{
+    margin-right: 50px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #0b1437;
+    background-color: #aed8ea;
+    border-radius: 50px;
+}
+
+.nextButton{
+    margin-left: 50px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #0b1437;
+    background-color: #aed8ea;
+    border-radius: 50px;
+}
+
+.monthDisplay{
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+  #header {
+    padding: 10px;
+    color: #080F2B;
+    font-size: 26px;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+  }
+
+  #container {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  #calendar {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+
+  }
+  .day {
+    width: 110px;
+    padding: 10px;
+    height: 105px;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: #D3E8F1;
+    margin: 3px;
+    box-shadow: 0px 0px 3px #dae3d1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #080F2B;
+  }
+  .day:hover {
+    background-color: #75acb6;
+    color: #D3E8F1;
+  }
+  
+  .day + #currentDay {
+    background-color: #080F2B;
+    color: #D3E8F1;
+  }
+  .selected {
+    background-color: #4895a2;
+    color: #D3E8F1;
+    }
+  .event {
+    font-size: 10px;
+    padding: 3px;
+    background-color: #58bae4;
+    color: white;
+    border-radius: 5px;
+    max-height: 55px;
+    overflow: hidden;
+  }
+  .padding {
+    cursor: default !important;
+    background-color: #f4fafc !important;
+    box-shadow: none !important;
+  }
+  #newEventModal, #deleteEventModal {
+    display: none;
+    z-index: 20;
+    padding: 25px;
+    background-color: #e8f4fa;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 5px;
+    width: 350px;
+    top: 100px;
+    left: calc(50% - 175px);
+    position: absolute;
+    font-family: sans-serif;
+  }
+  #eventTitleInput {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 3px gray;
+  }
+  #eventTitleInput.error {
+    border: 2px solid red;
+  }
+  #cancelButton, #deleteButton {
+    background-color: #d36c6c;
+  }
+  #eventText {
+    font-size: 14px;
+  }
+  #modalBackDrop {
+    display: none;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .deadline{
+    display: none;
+  }
+
+  .university{
+    display: none;
+  }
+
+  .task{
+    display: none;
+  }
+
+  .has-deadline {
+    border-left: 5px solid rgb(198, 0, 66);
+
+
+  }
+
+  .has-lecture {
+    border-bottom: 5px solid rgb(107, 175, 167);
+
+  }
+
+  .has-task {
+    border-right: 5px solid rgb(137, 162, 224);
+
+  }
+
+  .c-aside__eventList{
+    color: black;
+    border-left: 5px solid rgb(198, 0, 66);
+    margin-top: 20px;
+
+  }
+
+  .c-aside__classList{
+    color: black;
+    border-left: 5px solid rgb(107, 175, 167);
+    margin-top: 20px;
+    color: #080F2B;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-weight: 100;
+    text-align: left;
+    padding: 0px;
+    margin-left: 10px;
+    padding-left: 12px;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    font-size: 17px;
+  }
+
+  .c-aside__taskList{
+    color: black;
+    border-left: 5px solid rgb(137, 162, 224);
+    margin-top: 20px;
+    color: #080F2B;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-weight: 100;
+    text-align: left;
+    padding: 0px;
+    margin-left: 10px;
+    padding-left: 12px;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    font-size: 17px;
+  }
+
+  .fade-in {
+    animation: fadeIn 4s;
+    
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

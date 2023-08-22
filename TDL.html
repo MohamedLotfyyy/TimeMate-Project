@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel = "stylesheet" href = "TDL.css">
+    <!-- importing google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <!-- font awesome cdn - provides the css for icons-->
+    <link rel = "stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- the following code is for the nav bar -->
+    <ul>
+        <li style="margin-left: 3%; font-size: 30px; font-family: 'Yeseva One';float: left;"><a href="index.php">TimeMate</a></li>
+        <li style="margin-top: 8px; font-size: 14px; font-family: 'TT Octosquares Trl', sans-serif;font-weight: 300;float: left;"><a href="index.php">HOME</a></li>
+        <li style="margin-top: 8px; font-size: 14px; font-family: 'TT Octosquares Trl', sans-serif;font-weight: 300;float: left;"><a href="timetable2.php">TIMETABLE</a></li>
+        <li style="margin-top: 8px; font-size: 14px; font-family: 'TT Octosquares Trl', sans-serif;font-weight: 300;float: left;"><a href="TDL.html">TO-DO'S</a></li>
+        <li style="margin-top: 8px; font-size: 14px; font-family: 'TT Octosquares Trl', sans-serif;font-weight: 300;float: left;"><a href="settings.html">SETTINGS</a></li>
+        <li style="margin-top: 8px; float:right ; margin-right: 3%; font-size: 14px; font-family: 'TT Octosquares Trl', sans-serif;font-weight: 300;"><a class="active" href="logout.php">LOG OUT</a></li>
+      </ul>  
+    <header> 
+        <h1>My To Do List</h1> <!-- main heading of page -->
+        <h2><span id ='date'></span></h2>
+    </header>
+    <form action = "TDL2.php" method = "post"> <!-- prev tut; may need to edit js--> 
+        
+        <div class="todo-list-container">
+
+            <div class="list-head">
+                <input type = "text" class = "todo-input" name  = "nameOfTask" > <!-- task input-->
+                
+                <!-- dropdown-->
+                <select name = "show-todo" class = "filter-todo">
+                    <option value="none" selected disabled>Select an Option</option>
+                    <option value = "all">all</option>
+                    <option value = "completed">completed</option>
+                    <option value = "pending">pending</option>
+                </select>
+
+                
+                <!-- button - adds task to list-->
+                 <button class = "todo-button" id="btn_id" type = "submit">
+                    <i class="fa fa-solid fa-circle-plus"></i> 
+                </button>
+
+                <!-- <label for="start">Deadline:</label> -->
+                <select name = "add-to-timetable" class = "add-to-do-to-timetable">
+                    <option value="none" selected disabled >Add to timetable?</option>
+                    <option value = "add">yes</option>
+                    <option value = "doNotAdd">no</option>
+
+                    <!-- <option value = "incomplete">item3</option> -->
+                </select>
+
+                <input class = "deadline" type="date" name ="deadline" > 
+
+                
+
+
+            </div>
+            <div class="list-tasks">
+                 <!-- <div id="item" class = "todos">
+                     <p>new item here</p>
+                    <div class="item-btn" id = "addList" >
+                        <li class = "text_value">hello world</li>
+                        <li class="fa-solid fa-pen-to-square"></li>
+                        <li class="fa-solid fa-xmark" id = "tag_id"></li>
+                        <p>hello world</p>
+                    </div> 
+                </div>  -->
+            </div>
+
+        </div>
+
+    </form>
+    <!--<div class="todo-container">
+        <ul class = "todo-list"></ul>
+    </div> prev tutorial -->
+
+    <script src = "TDL.js"></script>
+
+    
+</body>
+
+</html>
+

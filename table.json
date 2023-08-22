@@ -1,0 +1,102 @@
+[
+  {
+    "Course Id": "COMP11120",
+    "Assessment Name": "11120-sheet12-S-Sheet 12",
+    "Due Date": "13 Feb 10:00"
+  },
+  {
+    "Course Id": "COMP11120",
+    "Assessment Name": "11120-sheet13-S-Sheet 13",
+    "Due Date": "20 Feb 10:00"
+  },
+  {
+    "Course Id": "COMP11120",
+    "Assessment Name": "11120-sheet14-S-Sheet 14",
+    "Due Date": "27 Feb 10:00"
+  },
+  {
+    "Course Id": "COMP11212",
+    "Assessment Name": "11212-EXERCISE1-S-TEST1",
+    "Due Date": "03 Mar 18:00"
+  },
+  {
+    "Course Id": "COMP16412",
+    "Assessment Name": "16412-Cwk-F-chess",
+    "Due Date": "03 Mar 18:00"
+  },
+  {
+    "Course Id": "COMP11120",
+    "Assessment Name": "11120-sheet15-S-Sheet 15",
+    "Due Date": "06 Mar 10:00"
+  },
+  {
+    "Course Id": "COMP11212",
+    "Assessment Name": "11212-EXERCISE2-S-SHEET1",
+    "Due Date": "10 Mar 18:00"
+  },
+  {
+    "Course Id": "COMP11120",
+    "Assessment Name": "11120-sheet16-S-Sheet 16",
+    "Due Date": "13 Mar 10:00"
+  },
+  {
+    "Course Id": "COMP11120",
+    "Assessment Name": "11120-sheet17-S-Sheet 17",
+    "Due Date": "20 Mar 10:00"
+  },
+  {
+    "Course Id": "COMP11120",
+    "Assessment Name": "11120-sheet18-S-Sheet 18",
+    "Due Date": "17 Apr 10:00"
+  },
+  {
+    "Course Id": "COMP15212",
+    "Assessment Name": "15212-Lab-S-Caching",
+    "Due Date": "21 Apr 18:00"
+  },
+  {
+    "Course Id": "COMP13212",
+    "Assessment Name": "13212-LAB4-S-Statistical reasoning",
+    "Due Date": "21 Apr 18:00"
+  },
+  {
+    "Course Id": "COMP11120",
+    "Assessment Name": "11120-sheet19-S-Sheet 19",
+    "Due Date": "24 Apr 10:00"
+  },
+  {
+    "Course Id": "COMP11212",
+    "Assessment Name": "11212-EXERCISE3-S-TEST2",
+    "Due Date": "28 Apr 18:00"
+  },
+  {
+    "Course Id": "COMP11120",
+    "Assessment Name": "11120-sheet20-S-Sheet 20",
+    "Due Date": "01 May 10:00"
+  },
+  {
+    "Course Id": "COMP16412",
+    "Assessment Name": "16412-Cwk-S-selfish",
+    "Due Date": "03 May 12:00"
+  },
+  {
+    "Course Id": "COMP11212",
+    "Assessment Name": "11212-EXERCISE4-S-SHEET2",
+    "Due Date": "05 May 18:00"
+  },
+  {
+    "Course Id": "COMP13212",
+    "Assessment Name": "13212-LAB5-S-Machine Learning",
+    "Due Date": "05 May 18:00"
+  },
+  {
+    "Course Id": "COMP10120",
+    "Assessment Name": "10120-P2-S-Semester 2 Presentation",
+    "Due Date": "12 May 18:00"
+  },
+  {
+    "Course Id": "COMP10120",
+    "Assessment Name": "10120-Rpt2-S-Final Report",
+    "Due Date": "12 May 18:00"
+  }
+]

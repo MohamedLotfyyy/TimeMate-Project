@@ -1,0 +1,7 @@
+CREATE TABLE accounts (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(32) NOT NULL UNIQUE,
+    email VARCHAR(64) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    settings VARCHAR(1024) NOT NULL
+);

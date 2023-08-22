@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Yeseva+One&display=swap');
+@import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
+@import url('https://fonts.cdnfonts.com/css/tt-octosquares-trl');
+
+body {
+    background-image: url('bg1.png');
+    background-repeat: no-repeat;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #080F2B;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #D3E8F1;
+    text-align: center;
+    height: auto;
+    padding: 11px 30px;
+    text-decoration: none;
+
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    color: #387782;
+  }
+
+h1 {
+    color: black;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    animation: fadeIn 4s;
+  }
+
+p {
+    color: black;
+    font-family: 'Glacial Indifference', sans-serif;
+    text-align: left;
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    position: relative;
+    top: 40%;
+    left: 21%;
+    animation: fadeIn 4s;
+  }
+
+h4 {
+    color: black;
+    font-family: 'Glacial Indifference', sans-serif;
+    text-align: left;
+    margin: auto;
+    width: 40%;
+    padding: 3px;
+    position: relative;
+    left: 21%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    animation: fadeIn 4s;
+  }
+
+h5 {
+    color: #387782;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: left;
+    margin: auto;
+    width: 15%;
+    padding: 3px;
+    position: relative;
+    margin-top: 0.5%;
+    right: 2%;
+    margin-bottom: 0%;
+    animation: fadeIn 4s;
+  }
+
+a {
+    color: #387782;
+
+  }
+
+
+  .register-button {
+    background-color: #e1ecf4;
+    border-radius: 3px;
+    border: 1px solid #7aa7c7;
+    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #387782;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: auto;
+    outline: none;
+    padding: 15px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+    left: 40%;
+    margin-top: 3%;
+    width: 15%;
+    animation: fadeIn 4s;
+
+
+  }
+  
+  .register-button:hover,
+  .register-button:focus {
+    background-color: #D3E8F1;
+    color: #387782;
+    animation: fadeIn 4s;
+
+  }
+  
+  .register-button:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+    animation: fadeIn 4s;
+
+  }
+  
+  .register-button:active {
+    background-color: #a0c7e4;
+    box-shadow: none;
+    color: #2c5777;
+    animation: fadeIn 4s;
+
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
